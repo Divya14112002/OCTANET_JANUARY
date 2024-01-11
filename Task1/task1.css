@@ -1,0 +1,153 @@
+#learn{
+    color:blueviolet;
+    padding-left:40px;
+    padding-top:10px;
+    font-size: 30px;
+}
+#list{
+    position: absolute;
+    top:0;
+    right:0;
+    padding-top: 20px;
+
+}
+#ul1{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    
+}
+#li1{
+    float: left;
+    
+}
+#li1 a{
+    display:block;
+    text-align: center;
+    padding:16px;
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+}
+#li1 a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+#line1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#line2{
+    color:rgb(2, 2, 66);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#line3{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#pre1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+#pre2{
+    padding-left: 80px;
+    font-size: 14px;
+}
+
+#search{
+    padding-left: 80px;
+    padding-top:30px;
+
+}
+
+#searchQuery,#button{
+    font-size: 20px;
+}
+
+#button {
+    background-color: blueviolet;
+    color: white;
+}
+
+#image1{
+    height:200px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding-bottom: 400px;
+    padding-right: 400px;
+}
+
+#image2{
+    height: 200px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding-bottom: 170px;
+    padding-right: 100px;
+}
+
+#ul2{
+    background-color: blueviolet;
+    height: 150px;
+    width: 280px;
+}
+
+#li2{
+    color:white;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+#details{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    padding-bottom: 400px;
+    padding-right: 50px;
+}
+
+#footer{
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 500px;
+}
+
+#span{
+    color: aqua;
+}
+
+.circle-container {
+    position: relative;
+    display: inline-block;
+}
+
+.circle-container::before {
+    content: '';
+    display: block;
+    width: 105px; 
+    height: 75px;
+    border-radius: 50%; 
+    border: 2px solid aqua; 
+    position: absolute;
+    top: 85%; 
+    left: 45%; 
+    transform: translate(40%, -40%); 
+}
+
+.circle-text {
+    position: relative;
+    z-index: 1; 
+}
